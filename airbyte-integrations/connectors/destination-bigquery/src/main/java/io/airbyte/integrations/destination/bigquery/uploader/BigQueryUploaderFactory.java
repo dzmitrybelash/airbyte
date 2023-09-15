@@ -4,7 +4,7 @@
 
 package io.airbyte.integrations.destination.bigquery.uploader;
 
-import static io.airbyte.integrations.destination.s3.avro.AvroConstants.JSON_CONVERTER;
+import static io.airbyte.cdk.integrations.destination.s3.avro.AvroConstants.JSON_CONVERTER;
 import static software.amazon.awssdk.http.HttpStatusCode.FORBIDDEN;
 import static software.amazon.awssdk.http.HttpStatusCode.NOT_FOUND;
 

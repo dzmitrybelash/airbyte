@@ -4,14 +4,14 @@
 
 package io.airbyte.integrations.destination.snowflake.typing_deduping;
 
-import static io.airbyte.integrations.base.JavaBaseConstants.DEFAULT_AIRBYTE_INTERNAL_NAMESPACE;
+import static io.airbyte.cdk.integrations.base.JavaBaseConstants.DEFAULT_AIRBYTE_INTERNAL_NAMESPACE;
 import static io.airbyte.integrations.destination.snowflake.SnowflakeInternalStagingDestination.RAW_SCHEMA_OVERRIDE;
 
-import io.airbyte.db.jdbc.JdbcDatabase;
-import io.airbyte.integrations.base.TypingAndDedupingFlag;
-import io.airbyte.integrations.base.destination.typing_deduping.StreamConfig;
-import io.airbyte.integrations.base.destination.typing_deduping.StreamId;
-import io.airbyte.integrations.base.destination.typing_deduping.V2TableMigrator;
+import io.airbyte.cdk.db.jdbc.JdbcDatabase;
+import io.airbyte.cdk.integrations.base.TypingAndDedupingFlag;
+import io.airbyte.cdk.integrations.base.destination.typing_deduping.StreamConfig;
+import io.airbyte.cdk.integrations.base.destination.typing_deduping.StreamId;
+import io.airbyte.cdk.integrations.base.destination.typing_deduping.V2TableMigrator;
 import io.airbyte.protocol.models.v0.DestinationSyncMode;
 import java.sql.SQLException;
 import java.util.LinkedHashMap;

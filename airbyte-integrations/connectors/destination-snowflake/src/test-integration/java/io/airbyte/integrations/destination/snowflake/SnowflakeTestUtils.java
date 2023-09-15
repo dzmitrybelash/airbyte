@@ -8,8 +8,8 @@ import static java.util.stream.Collectors.joining;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import io.airbyte.db.jdbc.JdbcDatabase;
-import io.airbyte.integrations.base.JavaBaseConstants;
+import io.airbyte.cdk.db.jdbc.JdbcDatabase;
+import io.airbyte.cdk.integrations.base.JavaBaseConstants;
 import io.airbyte.integrations.destination.snowflake.typing_deduping.SnowflakeSqlGenerator;
 import java.sql.SQLException;
 import java.util.List;

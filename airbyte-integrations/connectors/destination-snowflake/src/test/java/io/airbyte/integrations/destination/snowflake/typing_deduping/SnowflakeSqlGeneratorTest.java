@@ -3,8 +3,8 @@ package io.airbyte.integrations.destination.snowflake.typing_deduping;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import io.airbyte.integrations.base.destination.typing_deduping.ColumnId;
-import io.airbyte.integrations.base.destination.typing_deduping.StreamId;
+import io.airbyte.cdk.integrations.base.destination.typing_deduping.ColumnId;
+import io.airbyte.cdk.integrations.base.destination.typing_deduping.StreamId;
 import org.junit.jupiter.api.Test;
 
 public class SnowflakeSqlGeneratorTest {
